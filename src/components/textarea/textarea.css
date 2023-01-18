@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.Textarea {
+  font-family: 'Russo one', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.editor {
+  font-size: 0.9rem;
+  margin-top: -1px;
+  border-radius: 2px;
+  border: 1px solid black;
+  width: 550px;
+  height: 200px;
+  background-color: rgb(162, 221, 201);
+  overflow-y: scroll;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+}
+
+.editor:focus {
+  outline:0px !important;
+}
+
+.toolbar {
+  border-radius: 2px;
+  border: 1px solid black;
+  width: 549px;
+  height: 25px;
+  margin-top: 40px;
+  text-align: left;
+  font-size: 1.1rem;
+  padding-left: 5px;
+  padding-top: 5px;
+  background-color: rgb(72, 149, 123);
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+}
