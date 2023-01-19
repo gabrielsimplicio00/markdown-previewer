@@ -28,7 +28,9 @@
 }
 
 .text-preview img {
-  width: 100%;
+  min-width: 15%;
+  max-width: 50%;
+  object-fit: contain;
 }
 
 .toolbar-preview {
